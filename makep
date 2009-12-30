@@ -1,0 +1,11 @@
+#!/bin/sh
+cp -v plugin.xml out/production/YalePluginTasks
+
+cd out/production/YalePluginTasks
+
+zip -rv YalePluginTasks.zip . -i \*.class *.xml
+
+cp -v YalePluginTasks.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+cp -v YalePluginTasks.zip /Users/leemandell/archivistsToolkit/vanilla\ AT\ 2.0/plugins
+cp -v BYUImportExport.zip /Users/leemandell/archivistsToolkit/vanilla\ AT\ 2.0/plugins
+
