@@ -51,10 +51,13 @@ import edu.yale.plugins.tasks.search.BoxLookupReturnScreen;
 
 public class YalePluginTasks extends Plugin implements ATPlugin {
 
+	//testing git commits
+
 	public static final String APPLY_CONTAINER_INFORMATION_TASK = "Assign Container Information";
 	public static final String EXPORT_VOYAGER_INFORMATION = "Export Voyager Information";
 	public static final String PARTIAL_EAD_IMPORT = "Partial EAD Import";
 	public static final String BOX_LOOKUP = "Box Lookup";
+
 
 	public static final String PLUGIN_NAME = "Yale Tasks";
 
